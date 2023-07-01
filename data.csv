@@ -1,57 +1,9 @@
-,nombre_cliente,email_cliente,telefono_cliente,rut,cliente_banca,correo_interno,urgencia,categoria,producto,resumen,adjuntos,body,categoria_prior,cliente_banca_prio,priority
-5,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,5,Ventas,Crédito hipotecario,Consulta sobre Créditos Hipotecarios - 05-08-2023,[],"Estimado Ejecutivo,
-
-Necesito información inmediata sobre los créditos hipotecarios de Scotiabank. ¿Podría proporcionarme los detalles de las condiciones de financiamiento y los documentos necesarios para solicitarlos? Espero su respuesta lo antes posible.
-
-Saludos,
-Juan Perez",4,2,11
-1,José Gómez,jgomez@example.com,,,False,False,3,Ventas,Cuenta corriente,Consulta sobre Cuenta Corriente en Dólares - 02-08-2023,[],"Estimado Ejecutivo de Scotiabank, 
-
-Escribo para solicitar información sobre la Cuenta Corriente en dólares. Entiendo que este producto podría ser muy beneficioso para mí y estoy interesado en aprender más sobre cómo puedo comenzar a usarlo. 
-
-Agradecería su pronta respuesta con los detalles necesarios. 
-
-Saludos, 
-José Gómez",4,2,9
-3,Francisco González,fgonzalez@example.com,,,False,False,3,Ventas,Cuenta corriente,Solicitud de información sobre inscripción a la Cuenta Corriente Scotia Zero,[],"Estimado Ejecutivo de Scotiabank, 
-
-Escribo para solicitar información sobre cómo inscribirme en la Cuenta Corriente Scotia Zero. Entiendo que este producto podría ser muy beneficioso para mí y estoy interesado en aprender más sobre cómo puedo comenzar a usarlo. 
-
-Agradecería su pronta respuesta con los detalles necesarios. 
-
-Saludos, 
-Francisco González",4,2,9
-4,Juan Pérez,jperez@example.com,,,False,False,3,Ventas,Cuenta corriente,Solicitud de apertura de Cuenta Corriente en Dólares,[],"Estimado Ejecutivo de Scotiabank, 
-
-Escribo para solicitar la apertura de una Cuenta Corriente en Dólares. Me gustaría conocer los requisitos y los documentos que necesito presentar para realizar este trámite. 
-
-Espero su pronta respuesta. 
-
-Saludos, 
-Juan Pérez",4,2,9
-6,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,3,Ventas,Crédito hipotecario,Consulta sobre Créditos Hipotecarios - 05-08-2023,[],"Estimado Ejecutivo,
-
-Me gustaría obtener más información sobre los diferentes tipos de créditos hipotecarios que ofrece Scotiabank. ¿Podría proporcionarme más detalles sobre las condiciones de financiamiento y los documentos necesarios para solicitarlos? Agradezco de antemano su ayuda.
-
-Saludos cordiales,
-Juan Perez",4,2,9
-7,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,3,Ventas,Crédito hipotecario,Solicitud de información sobre créditos hipotecarios,[],"Estimado Ejecutivo,
-
-Espero que este correo le encuentre bien. Estoy emocionado por la posibilidad de obtener un crédito hipotecario con Scotiabank. ¿Podría proporcionarme más detalles sobre las condiciones de financiamiento y los documentos necesarios para solicitarlos? Estoy ansioso por comenzar este proceso con ustedes.
-
-Saludos cordiales,
-Juan Perez",4,2,9
-0,,psilva@example.com,,,False,False,4,Post-Venta,Cuenta corriente,"Transferencia no ejecutada, Cuenta Corriente Scotia Zero",[],"Estimado Ejecutivo de Scotiabank, 
-
-Escribo para expresar mi descontento con un problema reciente que he experimentado. Intenté hacer una transferencia a través de mi Cuenta Corriente Scotia Zero y por alguna razón no se ha ejecutado. Este tipo de problemas son inaceptables y espero que se resuelvan de inmediato. 
-
-Espero su pronta respuesta. 
-
-Saludos, 
-Patricio Silva",1,2,7
-2,Carlos Muñoz,cmunoz@ejemplo.cl,,,False,False,3,Post-Venta,Cuenta corriente,Problemas con la aplicación ScotiaGo. No logro acceder a todas las funciones de mi Cuenta Corriente Scotia Zero. Esto me causa frustración.,[],"Estimado Ejecutivo de Scotiabank, 
-
-Escribo porque tengo problemas con la app ScotiaGo. No logro acceder a todas las funciones de mi Cuenta Corriente Scotia Zero. Esto me causa frustración. ¿Podría ayudarme a solucionarlo? Me gusta usar la app, es conveniente para mí. Espero su respuesta. 
-
-Saludos, 
-Carlos Muñoz",1,2,6
+priority,nombre_cliente,email_cliente,telefono_cliente,rut,cliente_banca,correo_interno,urgencia,categoria,producto,resumen,adjuntos
+11,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,5,Ventas,Crédito hipotecario,Consulta sobre Créditos Hipotecarios - 05-08-2023,[]
+9,José Gómez,jgomez@example.com,,,False,False,3,Ventas,Cuenta corriente,Consulta sobre Cuenta Corriente en Dólares - 02-08-2023,[]
+9,Francisco González,fgonzalez@example.com,,,False,False,3,Ventas,Cuenta corriente,Solicitud de información sobre inscripción a la Cuenta Corriente Scotia Zero,[]
+9,Juan Pérez,jperez@example.com,,,False,False,3,Ventas,Cuenta corriente,Solicitud de apertura de Cuenta Corriente en Dólares,[]
+9,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,3,Ventas,Crédito hipotecario,Consulta sobre Créditos Hipotecarios - 05-08-2023,[]
+9,Juan Perez,juan.perez@gmail.com,+56912345678,12.345.678-9,False,False,3,Ventas,Crédito hipotecario,Solicitud de información sobre créditos hipotecarios,[]
+7,,psilva@example.com,,,False,False,4,Post-Venta,Cuenta corriente,"Transferencia no ejecutada, Cuenta Corriente Scotia Zero",[]
+6,Carlos Muñoz,cmunoz@ejemplo.cl,,,False,False,3,Post-Venta,Cuenta corriente,Problemas con la aplicación ScotiaGo. No logro acceder a todas las funciones de mi Cuenta Corriente Scotia Zero. Esto me causa frustración.,[]
