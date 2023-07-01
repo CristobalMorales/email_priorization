@@ -28,15 +28,18 @@ body={'nombre_cliente': 'José Gómez',
                      'categoria': 'Ventas',
                      'producto': 'Apertura de cuenta',
                      'resumen': 'Solicitud crédito hipotecario - Busco financiar 2000UF de 3700 que cuesta la propiedad a 25 años con tasa fija.',
-                     'adjuntos': ['identificación.pdf', 'liquidación_marzo.pdf', 'cartola_afp.pdf'],
-                     'body': 'Buen día Paola,\
-                              Busco financiar 2000UF de 3700 que cuesta la propiedad a 25 años con tasa fija.\
-                              La propiedad está para listo para escriturar, es un departamento nuevo ubicado\
-                              en ciudad empresarial (Proyecto Parque los Almendros de la inmobiliaria Fortaleza).\
-                              Adjunto las últimas liquidaciones de sueldo y el certificado de la AFP.\
-                              Si necesita algo adicional quedo atento.\
+                     'adjuntos': ['identificación.pdf', 'liquidación_marzo.pdf', 'cartola_afp.pdf']}
+
+mail= {'from': 'josebas.gmz@gmail.com',
+       'body': 'Buen día Paola,\
+                Busco financiar 2000UF de 3700 que cuesta la propiedad a 25 años con tasa fija.\
+                    La propiedad está para listo para escriturar, es un departamento nuevo ubicado\
+                        en ciudad empresarial (Proyecto Parque los Almendros de la inmobiliaria Fortaleza).\
+                            Adjunto las últimas liquidaciones de sueldo y el certificado de la AFP.\
+                            Si necesita algo adicional quedo atento.\
                               José Gómez'}
 
+st.json(mail, expanded=True)
 st.json(body, expanded=True)
 
 st.markdown(response)
