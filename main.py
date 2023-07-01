@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 st.title("Clippy AI Solutions")
-st.text("A partir de los correos recibidos nuestra solución Summary entregará un resumen ordenado de los correos prioritarios con un detalle de la urgencia y categoría de estos.")
+st.markdown("A partir de los correos recibidos nuestra solución Summary entregará un resumen ordenado de los correos prioritarios con un detalle de la urgencia y categoría de estos.")
 # st.markdown("Esta app mostrará el resumen diario")
 
 df_priority = pd.read_csv("data.csv")
