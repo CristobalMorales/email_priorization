@@ -26,7 +26,7 @@ body={'nombre_cliente': 'José Gómez',
                      'correo_interno': False,
                      'urgencia': 2,
                      'categoria': 'Ventas',
-                     'producto': 'Apertura de cuenta',
+                     'producto': 'Credito Hipotecario',
                      'resumen': 'Solicitud crédito hipotecario - Busco financiar 2000UF de 3700 que cuesta la propiedad a 25 años con tasa fija.',
                      'adjuntos': ['identificación.pdf', 'liquidación_marzo.pdf', 'cartola_afp.pdf']}
 
@@ -39,13 +39,18 @@ mail= {'from': 'josebas.gmz@gmail.com',
                             Si necesita algo adicional quedo atento.\
                               José Gómez'}
 
+st.text("Email enviado por el cliente:")
 st.json(mail, expanded=True)
+
+st.text("Resumen realizado por IA:")
 st.json(body, expanded=True)
 
+st.text("Respuesta automática al correo enviado por el cliente:")
 st.markdown(response)
 
 image = Image.open('requerimientos.png')
 
 st.image(image, caption='Revisión de requerimientos')
 
+st.text("Tabla resumen de los correos ordenados por prioridad:")
 st.table(data=df_priority)
