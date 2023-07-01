@@ -1,14 +1,22 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
-st.title("Procesamiento de correos recibidos")
+st.title("Clippy AI Solutions")
 st.text("A partir de los correos recibidos nuestra solución Summary entregará un resumen ordenado de los correos prioritarios con un detalle de la urgencia y categoría de estos.")
 # st.markdown("Esta app mostrará el resumen diario")
 
 df_priority = pd.read_csv("data.csv")
 
-st.table(data=df_priority)
+response ="""
+Respuesta Automática: Estimado José Gómez,
+Gracias por su interés en nuestro producto de crédito hipotecario. Para poder procesar su solicitud, necesitamos algunos detalles adicionales. Por favor,
+proporcione su número de teléfono y RUT. Además, hemos notado que usted no es cliente de banca con nosotros. Para solicitar un crédito hipotecario, es necesario abrir una con nosotros. ¿Le gustaría que le ayudemos con el proceso de apertura de cuenta?
+Por último, hemos recibido sus documentos adjuntos. Los revisaremos y nos pondremos en contacto con usted necesitamos información adicional.
 
+Quedamos atentos a su respuesta.
+Saludos cordiales,Agente AI Scotiabank
+"""
 
 body={'nombre_cliente': 'José Gómez',
                      'email_cliente': 'josebas.gmz@gmail.com',
@@ -30,8 +38,11 @@ body={'nombre_cliente': 'José Gómez',
                               José Gómez'}
 
 st.json(body, expanded=True)
-from PIL import Image
+
+st.markdown(response)
 
 image = Image.open('requerimientos.png')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='Revisión de requerimientos')
+
+st.table(data=df_priority)
